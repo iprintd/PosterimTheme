@@ -1,0 +1,14 @@
+.terms .main-content{margin:0 auto}
+@media (min-width:1199px){.terms .main-content{width:1160px}}
+@media (min-width:767px) and (max-width:1199px){.terms .main-content{width:727px}}
+@media (min-width:575px) and (max-width:767px){.terms .main-content{width:536px}}
+@media (min-width:319px) and (max-width:575px){.terms .main-content{width:300px}}
+#terms_header {
+    font-size: var(--text-size-h2);
+    color: #000;
+    padding-top: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom:40px;
+    margin: auto;
+} 

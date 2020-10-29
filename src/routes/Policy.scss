@@ -1,0 +1,14 @@
+.policy .main-content{margin:0 auto}
+@media (min-width:1199px){.policy .main-content{width:1160px}}
+@media (min-width:767px) and (max-width:1199px){.policy .main-content{width:727px}}
+@media (min-width:575px) and (max-width:767px){.policy .main-content{width:536px}}
+@media (min-width:319px) and (max-width:575px){.policy .main-content{width:300px}}
+#policy_header {
+    font-size: var(--text-size-h2);
+    color: #000;
+    font-weight: normal;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom:40px;  
+    margin: auto;
+} 

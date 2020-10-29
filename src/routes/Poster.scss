@@ -1,0 +1,209 @@
+@import '_theme.scss';
+
+.home{
+  .middle-section {
+    margin: 0 auto;
+
+    @media (min-width: $lg) {
+      width: 1160px;
+    }
+
+    @media (min-width: $md) and (max-width: $lg) {
+      width: 727px;
+    }
+
+    @media (min-width: $sm) and (max-width: $md) {
+      width: 536px;
+    }
+
+    @media (min-width: $xs) and (max-width: $sm) {
+      width: 300px;
+    }
+  }
+
+  .categories-wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: $xl) {
+      padding: 55px 0px 12px 0px;
+    }
+  
+    @media (min-width: $lg) and (max-width: $xl) {
+      padding: 55px 0px 12px 0px;
+    }
+  
+    @media (min-width: $md) and (max-width: $lg) {
+      padding: 40px 0px 12px 0px;
+    }
+  
+    @media (min-width: $sm) and (max-width: $md) {
+      padding: 40px 0px 12px 0px;
+    }
+  
+    @media (min-width: $xs) and (max-width: $sm) {
+      padding: 40px 0px 12px 0px;
+    }
+  
+    @media (max-width: $xs) {
+      padding: 40px 0px 12px 0px;
+    }
+  }
+  .how-works .wrapper {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .how-works-title {
+    width: 100%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .how-works-item span {
+    color: #fff;
+    font-size: 26px;
+  }
+.next-step-img {
+  float: right;
+}
+  .how-works-items {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .how-works-item {
+    float: right;
+    width: 200px;
+  }
+
+  .how-works-item-img {
+    float: right;
+  }
+
+  .how-works-item p {
+    font-family: arial;
+    font-size: 14px;
+  }
+  .how-works-item-img {
+    background-image: url(/ustoreThemeCustomizations/8b190a36-ce5a-46fe-8cef-0c3cac77f5e3/Published/Assets/item.png);     
+    width: 200px;
+    height: 144px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .how-works-item-img img {
+      margin-top: 33px;
+    }
+    .next-step {
+      float: right;
+      margin-top: 45px;
+    }
+  .how-works {
+    background-image: url(/ustoreThemeCustomizations/8b190a36-ce5a-46fe-8cef-0c3cac77f5e3/Published/Assets/banner02.png);     
+    height: 411px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #header_bottom {
+    height: 11px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url(/ustoreThemeCustomizations/8b190a36-ce5a-46fe-8cef-0c3cac77f5e3/Published/Assets/header_bottom.png);     
+  }
+
+  .promotion-wrapper {
+    height: 367px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/ustoreThemeCustomizations/8b190a36-ce5a-46fe-8cef-0c3cac77f5e3/Published/Assets/banner.png);     
+    background-size: cover;
+  }
+  
+  .divider{
+    height: 1px;
+    margin: 0 auto;
+    background: var(--color-line);   
+  }
+
+  .featured-products-wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: $xl) {
+      padding: 55px 0px;
+    }
+  
+    @media (min-width: $lg) and (max-width: $xl) {
+      padding: 55px 0px;
+    }
+  
+    @media (min-width: $md) and (max-width: $lg) {
+      padding: 40px 0px;
+    }
+  
+    @media (min-width: $sm) and (max-width: $md) {
+      padding: 40px 0px;
+    }
+  
+    @media (min-width: $xs) and (max-width: $sm) {
+      padding: 40px 0px;
+    }
+  
+    @media (max-width: $xs) {
+      padding: 40px 0px;
+    }
+  }
+  @media (max-width: $mlg) {
+    .next-step-img {
+      text-align: center;
+      width: 100%;
+    }
+    .next-step-img img {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    .next-step {
+      transform: rotate(-90deg);
+      text-align: center;
+      float: none;
+      height: 72px;
+      width: 100px;
+    }
+    .how-works {
+      min-height: 400px;
+      height: auto;
+
+      overflow: hidden;
+          }
+
+     .how-works-item  {
+      width: 100%;
+      align-self: center;
+     }
+
+     .how-works-items {
+       float: right;
+       margin-bottom: 20px;
+     }
+
+     .how-works-item-img {
+       width: 100%;
+     }
+  }
+
+}
+
+@media (max-width: $md) {
+.home .how-works-title {
+
+  font-size: 45px;
+}
+}
+
+@media (max-width: $mxs) {
+  .home .how-works-title {
+  
+    font-size: 41px;
+  }
+  }
